@@ -1,5 +1,5 @@
 ## python-intermediate
-improve skills with freecodecamp 
+improve skills with freecodecamp [video](https://www.youtube.com/watch?v=HGOBQPFzWKo)
 
 ### Topics 
 1. Lists  
