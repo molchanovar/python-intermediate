@@ -1,0 +1,9 @@
+GIL:
+
+This is a mutex (or a lock) that allows only one thread to hold control of the Python interpreter. 
+This means that the GIL allows only one thread to execute at a time even in a multi-threaded architecture.
+
+Avoid:
+ - use Multiprocessing
+ - use a different, free-threaded Python implementation (Jypthon, IronPython)
+ - use Python as a wrapper for third-party libraries (C/C++) -> numpy, scipy
